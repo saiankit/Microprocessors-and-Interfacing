@@ -1,0 +1,5 @@
+org 100h
+MOV AX,16ACH
+MOV BX,AX
+HLT
+ret

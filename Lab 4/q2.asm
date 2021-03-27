@@ -1,0 +1,7 @@
+org 100h
+MOV AX,3000H
+MOV DS, AX
+MOV [171EH], CX
+MOV BX, [171EH]
+HLT
+ret

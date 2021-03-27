@@ -1,0 +1,3 @@
+org 100h
+MOV BX,16ACH
+HLT ret
