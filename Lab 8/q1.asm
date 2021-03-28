@@ -1,0 +1,5 @@
+org 100H
+MOV AH, 01H
+INT 21H
+MOV [0501H], AL
+hlt
