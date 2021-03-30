@@ -1,0 +1,5 @@
+org 100h
+MOV AL,0019H
+MOV BL,003H
+DIV BL
+ret

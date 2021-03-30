@@ -1,0 +1,5 @@
+org 100h
+MOV CL,0012H
+MOV DL,00CAH
+ADD CL,DL
+ret

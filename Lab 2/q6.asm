@@ -1,0 +1,6 @@
+org 100h
+MOV AX,0000EF1AH
+MOV BX,0000CD50H
+MUL BX
+ret
+ret
