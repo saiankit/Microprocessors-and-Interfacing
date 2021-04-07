@@ -15,10 +15,10 @@ next:
 ; wait 5 seconds (5 million microseconds)
 ; 004C4B40h = 5,000,000
 
-mov cx, 001E
+mov cx, 001EH
 mov dx, 8480H
-mov ah, 86h
-int 15h
+mov ah, 86H
+int 15H
 
 add si, 2 ; next situation
 cmp si, sit_end
