@@ -11,9 +11,8 @@ next:
     mov ax, [si]
     out 4, ax
 
-; CX-DX Registers to provide wait instructions for 5seconds
-; wait 5 seconds (5 million microseconds)
-; 004C4B40h = 5,000,000
+; CX-DX Registers to provide wait instructions for 2seconds
+; wait 2 seconds (2 million microseconds)
 
 mov cx, 001EH
 mov dx, 8480H
